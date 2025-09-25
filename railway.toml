@@ -1,0 +1,11 @@
+[build]
+builder = "paketobuildpacks/builder:base"
+
+[[build.buildpacks]]
+uri = "paketo-buildpacks/python"
+
+[phases.setup]
+commands = [
+  "pip install playwright",
+  "playwright install --with-deps chromium"
+]
