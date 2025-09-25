@@ -1,45 +1,36 @@
-# Use official python image
-FROM python:3.11-slim
+FROM python:3.10-slim
 
-# Install system deps required by Playwright/Chromium
+# Set workdir
+WORKDIR /app
+
+# Install system dependencies required by Playwright
 RUN apt-get update && apt-get install -y \
+    wget \
     libnss3 \
     libatk1.0-0 \
     libatk-bridge2.0-0 \
     libcups2 \
-    libx11-xcb1 \
+    libxkbcommon0 \
     libxcomposite1 \
-    libxdamage1 \
     libxrandr2 \
-    libgbm1 \
+    libxss1 \
     libasound2 \
     libpangocairo-1.0-0 \
-    libpango-1.0-0 \
-    libxss1 \
     libgtk-3-0 \
-    libgdk-pixbuf2.0-0 \
-    wget \
-    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Create app directory
-WORKDIR /app
+# Copy files
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
-COPY . /app
+# Install Playwright
+RUN pip install playwright && playwright install --with-deps chromium
 
-# Upgrade pip and install python deps
-RUN python -m pip install --upgrade pip setuptools wheel
-RUN pip install -r requirements.txt
+# Copy project
+COPY . .
 
-# Install Playwright browsers (chromium) and dependencies
-RUN python -m playwright install chromium --with-deps
-
-# Ensure port env var is used
-ENV PORT 8000
-
-# Expose port (for portability)
+# Expose FastAPI port
 EXPOSE 8000
 
-# Run uvicorn
+# Start FastAPI
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
