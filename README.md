@@ -17,6 +17,23 @@ The system simulates a team of specialized agents to plan, rank, execute, and an
 - **Reports** → JSON output + UI summary table with verdicts, reproducibility stats, and artifact links.  
 
 ---
+### RAG (Retrieval-Augmented Generation)
+
+This project includes a RAG pipeline that improves Planner and Analyzer agents by retrieving domain knowledge and past run artifacts.
+
+**How it works**
+1. `scripts/ingest_knowledge.py` indexes `reports/runs/**/*.json` and `knowledge_base/*` into a persistent Chroma vector store using OpenAI embeddings.
+2. `agents/rag.py` exposes `get_retriever()` and `get_retrieval_qa()` that Planner uses to fetch relevant context before generating tests.
+3. Set your OpenAI API key in `OPENAI_API_KEY` (do not commit it).
+
+**Local quick setup**
+```powershell
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+setx OPENAI_API_KEY "sk-..."
+python scripts/ingest_knowledge.py
+python test_rag.py   # quick smoke test
+---
 
 ## 🛠️ Tech Stack
 
