@@ -6,3 +6,6 @@ langchain==0.0.375
 requests
 python-dotenv
 streamlit
+openai
+chromadb
+tiktoken
