@@ -1,0 +1,21 @@
+{
+  "run_id": "33216c97-2064-43b8-85bd-f574608d81eb",
+  "started_at": "2025-10-04T17:30:09.011018",
+  "results": [
+    {
+      "test_id": "t1",
+      "ok": true,
+      "error": null
+    },
+    {
+      "test_id": "t2",
+      "ok": true,
+      "error": null
+    },
+    {
+      "test_id": "t3",
+      "ok": true,
+      "error": null
+    }
+  ]
+}

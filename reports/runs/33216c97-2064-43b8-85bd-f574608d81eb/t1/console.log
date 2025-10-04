@@ -1,0 +1,16 @@
+[warning] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+[log] GA Event Fired: session_start {user_id: f5062c3f-f1b1-4590-9caf-f46b31dcd591}
+[log] GA Event Fired: language_selected {language_code: en}
+[log] Audio play failed: NotSupportedError: The element has no supported sources.
+[log] Audio context unlock failed, will try again on next interaction.
+[log] Audio context unlock failed, will try again on next interaction.
+[log] Audio context unlock failed, will try again on next interaction.
+[log] GA Event Fired: tutorial_match_made {tutorial_step: 1, numbers: 5,5, match_type: same_number}
+[log] GA Event Fired: tutorial_step {step_number: 1}
+[log] GA Event Fired: tutorial_match_made {tutorial_step: 2, numbers: 7,3, match_type: sum_to_10}
+[log] GA Event Fired: tutorial_step {step_number: 2}
+[log] GA Event Fired: tutorial_match_made {tutorial_step: 3, numbers: 6,4, match_type: sum_to_10}
+[log] GA Event Fired: tutorial_step {step_number: 3}
+[log] GA Event Fired: tutorial_match_made {tutorial_step: 4, numbers: 8,2, match_type: sum_to_10}
+[log] GA Event Fired: tutorial_step {step_number: 4}
+[log] GA Event Fired: form_submitted {form_type: feedback}

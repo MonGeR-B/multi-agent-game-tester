@@ -1,0 +1,11 @@
+{
+  "test_id": "t3",
+  "description": "Input single large number 2057 and observe response.",
+  "started_at": "2025-10-04T17:30:08.917025",
+  "artifacts": {
+    "screenshot": "reports\\runs\\33216c97-2064-43b8-85bd-f574608d81eb\\t3\\screenshot.png",
+    "dom": "reports\\runs\\33216c97-2064-43b8-85bd-f574608d81eb\\t3\\dom.html",
+    "console": "reports\\runs\\33216c97-2064-43b8-85bd-f574608d81eb\\t3\\console.log",
+    "video": "reports\\runs\\33216c97-2064-43b8-85bd-f574608d81eb\\t3\\video.webm"
+  }
+}
