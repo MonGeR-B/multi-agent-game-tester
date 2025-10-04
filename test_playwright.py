@@ -2,7 +2,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 async def main():
-    url = "https://play.ezygamer.com/"
+    url = "https://play.ezygamers.com/"
     out = "playwright_smoke.png"
     try:
         async with async_playwright() as pw:

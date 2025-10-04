@@ -11,7 +11,7 @@ st.set_page_config(page_title="Multi-Agent Tester", layout="wide")
 st.title("⚡ Multi-Agent Game Tester")
 
 st.sidebar.header("Settings")
-target_url = st.sidebar.text_input("Target URL", "https://play.ezygamer.com/")
+target_url = st.sidebar.text_input("Target URL", "https://play.ezygamers.com/")
 num_candidates = st.sidebar.number_input("Number of candidates", min_value=5, max_value=50, value=10)
 top_k = st.sidebar.number_input("Top K", min_value=1, max_value=20, value=5)
 

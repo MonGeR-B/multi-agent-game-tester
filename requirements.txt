@@ -2,7 +2,7 @@ fastapi==0.100.0
 uvicorn[standard]==0.21.1
 pydantic
 playwright==1.55.0
-langchain==0.0.375
+langchain==0.3.27
 requests
 python-dotenv
 streamlit

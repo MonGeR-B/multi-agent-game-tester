@@ -6,6 +6,9 @@ from langchain.schema import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
+from dotenv import load_dotenv
+load_dotenv()
+
 
 # persist dir for vector DB
 PERSIST_DIR = "knowledge_store"
