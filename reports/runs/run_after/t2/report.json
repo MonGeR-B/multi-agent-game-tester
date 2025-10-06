@@ -1,0 +1,11 @@
+{
+  "test_id": "t2",
+  "description": "Try reverse order 9-11-4-22 and check score.",
+  "artifacts": {
+    "screenshot": "reports\\runs\\run_after\\t2\\screenshot.png",
+    "dom": "reports\\runs\\run_after\\t2\\dom.html",
+    "console": "reports\\runs\\run_after\\t2\\console.log",
+    "video": "reports\\runs\\run_after\\t2\\video.webm"
+  },
+  "ok": true
+}

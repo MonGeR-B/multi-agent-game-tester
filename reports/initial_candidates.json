@@ -1,0 +1,402 @@
+[
+  {
+    "id": "t1",
+    "description": "Try reverse order 48-2-8-41 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "41-8-2-48"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.499
+  },
+  {
+    "id": "t2",
+    "description": "Submit repeated digit 1 five times.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "44-48-35-6"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.278
+  },
+  {
+    "id": "t3",
+    "description": "Submit repeated digit 4 five times.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "15-33-39-2"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.519
+  },
+  {
+    "id": "t4",
+    "description": "Submit sequence 38-18-1-49 but skip the middle number.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "38-18-1-49"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.628
+  },
+  {
+    "id": "t5",
+    "description": "Enter numbers 14-49-22-7 quickly to reach target 107.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "14-49-22-7"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.71
+  },
+  {
+    "id": "t6",
+    "description": "Input single large number 3045 and observe response.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "39-17-3-47"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.25
+  },
+  {
+    "id": "t7",
+    "description": "Submit repeated digit 1 five times.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "19-41-40-24"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.356
+  },
+  {
+    "id": "t8",
+    "description": "Input single large number 8428 and observe response.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "19-6-15-7"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.409
+  },
+  {
+    "id": "t9",
+    "description": "Enter numbers 23-14-43-18 quickly to reach target 165.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "23-14-43-18"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.485
+  },
+  {
+    "id": "t10",
+    "description": "Submit repeated digit 1 five times.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "11-30-25-18"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.535
+  },
+  {
+    "id": "t11",
+    "description": "Enter numbers 3-21-26-18 quickly to reach target 64.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "3-21-26-18"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.345
+  },
+  {
+    "id": "t12",
+    "description": "Try reverse order 10-30-42-26 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "26-42-30-10"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.124
+  },
+  {
+    "id": "t13",
+    "description": "Try reverse order 26-28-38-48 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "48-38-28-26"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.038
+  },
+  {
+    "id": "t14",
+    "description": "Submit sequence 49-4-8-10 but skip the middle number.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "49-4-8-10"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.221
+  },
+  {
+    "id": "t15",
+    "description": "Try reverse order 34-30-39-25 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "25-39-30-34"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.395
+  },
+  {
+    "id": "t16",
+    "description": "Try reverse order 42-18-49-35 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "35-49-18-42"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.4
+  },
+  {
+    "id": "t17",
+    "description": "Submit sequence 1-47-17-33 but skip the middle number.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "1-47-17-33"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.699
+  },
+  {
+    "id": "t18",
+    "description": "Try reverse order 10-13-39-33 and check score.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "33-39-13-10"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.845
+  },
+  {
+    "id": "t19",
+    "description": "Enter numbers 39-21-32-2 quickly to reach target 102.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "39-21-32-2"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 0.21
+  },
+  {
+    "id": "t20",
+    "description": "Enter numbers 37-6-47-32 quickly to reach target 146.",
+    "steps": [
+      {
+        "action": "load",
+        "url": "https://play.ezygamers.com/"
+      },
+      {
+        "action": "fill",
+        "selector": "input[type='text'], input[id*='input'], textarea, #input",
+        "value": "37-6-47-32"
+      },
+      {
+        "action": "click",
+        "selector": "button[type='submit'], button[id*='submit'], #submit"
+      }
+    ],
+    "estimated_cost": 1.354
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "test_id": "t4",
+  "description": "Submit sequence 38-18-1-49 but skip the middle number.",
+  "artifacts": {
+    "screenshot": "reports\\runs\\run_initial\\t4\\screenshot.png",
+    "dom": "reports\\runs\\run_initial\\t4\\dom.html",
+    "console": "reports\\runs\\run_initial\\t4\\console.log",
+    "video": "reports\\runs\\run_initial\\t4\\video.webm"
+  },
+  "ok": true
+}

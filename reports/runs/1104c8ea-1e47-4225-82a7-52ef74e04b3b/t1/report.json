@@ -1,0 +1,11 @@
+{
+  "test_id": "t1",
+  "description": "Submit repeated digit 1 five times.",
+  "started_at": "2025-10-04T17:30:39.282631",
+  "artifacts": {
+    "screenshot": "reports\\runs\\1104c8ea-1e47-4225-82a7-52ef74e04b3b\\t1\\screenshot.png",
+    "dom": "reports\\runs\\1104c8ea-1e47-4225-82a7-52ef74e04b3b\\t1\\dom.html",
+    "console": "reports\\runs\\1104c8ea-1e47-4225-82a7-52ef74e04b3b\\t1\\console.log",
+    "video": "reports\\runs\\1104c8ea-1e47-4225-82a7-52ef74e04b3b\\t1\\video.webm"
+  }
+}

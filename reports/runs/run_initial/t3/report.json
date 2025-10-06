@@ -1,0 +1,11 @@
+{
+  "test_id": "t3",
+  "description": "Submit repeated digit 4 five times.",
+  "artifacts": {
+    "screenshot": "reports\\runs\\run_initial\\t3\\screenshot.png",
+    "dom": "reports\\runs\\run_initial\\t3\\dom.html",
+    "console": "reports\\runs\\run_initial\\t3\\console.log",
+    "video": "reports\\runs\\run_initial\\t3\\video.webm"
+  },
+  "ok": true
+}

@@ -1,0 +1,11 @@
+{
+  "test_id": "t3",
+  "description": "Enter numbers 28-6-39-25 quickly to reach target 11.",
+  "artifacts": {
+    "screenshot": "reports\\runs\\run_after\\t3\\screenshot.png",
+    "dom": "reports\\runs\\run_after\\t3\\dom.html",
+    "console": "reports\\runs\\run_after\\t3\\console.log",
+    "video": "reports\\runs\\run_after\\t3\\video.webm"
+  },
+  "ok": true
+}
