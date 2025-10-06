@@ -4,7 +4,7 @@ import asyncio
 from typing import Optional
 
 class PlannerAgent:
-    async def generate_tests(self, target_url: str, n: int = 20, seed: Optional[int] = None):
+    async def generate_tests(self, target_url: str, n: int = 20, seed: Optional[int] = None, use_rag: bool = False):
         """
         Generate candidate tests aimed at the provided target_url.
         These are intentionally generic: open page, fill an input if present, click a submit button.

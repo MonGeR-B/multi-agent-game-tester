@@ -1,0 +1,33 @@
+Initial generation (20–25s) — run:
+
+python scripts/generate_initial.py (show reports/initial_candidates.json)
+
+Open reports/initial_candidates.json, show a few sample descriptions.
+
+Initial execution (30–45s) — run executor:
+
+python scripts/execute_candidates.py --file reports/initial_candidates.json --top 5 --label run_initial
+
+Show the run folder and one console.log and report.json.
+
+Ingest / Train (20–25s) — run:
+
+python scripts/ingest_knowledge.py (show "Persisted X chunks")
+
+Generate after (20–25s) — run:
+
+python scripts/generate_after.py
+
+Open reports/after_candidates.json, show differences vs initial.
+
+Execute after (30–45s) — run:
+
+python scripts/execute_candidates.py --file reports/after_candidates.json --top 5 --label run_after
+
+Show artifacts in reports/runs/run_after/.
+
+Compare (20–30s) — run:
+
+python scripts/compare_candidates.py
+
+Open reports/compare_initial_after.md and highlight improvements (e.g., added sleeps, changed selectors, clarified steps).
