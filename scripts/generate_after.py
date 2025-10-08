@@ -1,17 +1,37 @@
-# scripts/generate_after.py
-import asyncio, json, os
+"""
+Generate 'after' (post-RAG ingestion) candidates and save to:
+  reports/after_candidates.json
+
+If you want this script to run ingestion first, uncomment the os.system(...) line below
+and ensure scripts/ingest_knowledge.py works in your environment.
+"""
+
+import json
+import os
+from datetime import datetime, timezone
+
 from agents.planner import PlannerAgent
 
-OUT = "reports"
-os.makedirs(OUT, exist_ok=True)
+OUT_DIR = "reports"
+OUT_FILE = os.path.join(OUT_DIR, "after_candidates.json")
 
-async def main():
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    # OPTIONAL: run ingestion before generating "after" candidates
+    # os.system("python scripts/ingest_knowledge.py")
+
+    print("Generating after candidates (after RAG ingestion)...")
     planner = PlannerAgent()
-    candidates = await planner.generate_tests("https://play.ezygamers.com/", n=20, seed=123, use_rag=True)
-    path = os.path.join(OUT, "after_candidates.json")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(candidates, f, indent=2)
-    print("Wrote", path)
+    candidates = planner.generate_tests("https://play.ezygamers.com/", n=20)
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "target_url": "https://play.ezygamers.com/",
+        "candidates": candidates
+    }
+    with open(OUT_FILE, "w", encoding="utf8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+    print(f"Saved {OUT_FILE} (count={len(candidates)})")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()

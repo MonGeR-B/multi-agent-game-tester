@@ -1,402 +1,424 @@
-[
-  {
-    "id": "t1",
-    "description": "Try reverse order 27-6-18-4 and check score. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "4-18-6-27"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.119
-  },
-  {
-    "id": "t2",
-    "description": "Try reverse order 9-11-4-22 and check score. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "22-4-11-9"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.411
-  },
-  {
-    "id": "t3",
-    "description": "Enter numbers 28-6-39-25 quickly to reach target 11. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "28-6-39-25"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.294
-  },
-  {
-    "id": "t4",
-    "description": "Submit sequence 3-6-43-10 but skip the middle number. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "3-6-43-10"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.189
-  },
-  {
-    "id": "t5",
-    "description": "Try reverse order 20-3-31-17 and check score. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "17-31-3-20"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.66
-  },
-  {
-    "id": "t6",
-    "description": "Enter numbers 41-34-37-21 quickly to reach target 111. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "41-34-37-21"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.401
-  },
-  {
-    "id": "t7",
-    "description": "Submit repeated digit 3 five times. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "41-43-39-32"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.069
-  },
-  {
-    "id": "t8",
-    "description": "Enter numbers 49-42-12-47 quickly to reach target 134. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "49-42-12-47"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.736
-  },
-  {
-    "id": "t9",
-    "description": "Input single large number 6506 and observe response. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "36-26-5-47"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.459
-  },
-  {
-    "id": "t10",
-    "description": "Try reverse order 1-24-41-6 and check score. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "6-41-24-1"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.052
-  },
-  {
-    "id": "t11",
-    "description": "Submit sequence 4-41-19-32 but skip the middle number. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "4-41-19-32"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.392
-  },
-  {
-    "id": "t12",
-    "description": "Input single large number 1166 and observe response. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "35-29-25-49"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.967
-  },
-  {
-    "id": "t13",
-    "description": "Try reverse order 44-23-17-2 and check score. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "2-17-23-44"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.306
-  },
-  {
-    "id": "t14",
-    "description": "Enter numbers 5-33-23-46 quickly to reach target 31. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "5-33-23-46"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.612
-  },
-  {
-    "id": "t15",
-    "description": "Input single large number 6283 and observe response. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "25-5-35-45"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.916
-  },
-  {
-    "id": "t16",
-    "description": "Input single large number 1389 and observe response. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "3-49-36-22"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.779
-  },
-  {
-    "id": "t17",
-    "description": "Submit sequence 27-5-46-44 but skip the middle number. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "27-5-46-44"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.667
-  },
-  {
-    "id": "t18",
-    "description": "Input single large number 6016 and observe response. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "41-4-49-34"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.836
-  },
-  {
-    "id": "t19",
-    "description": "Submit repeated digit 1 five times. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "19-25-24-9"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 1.296
-  },
-  {
-    "id": "t20",
-    "description": "Submit sequence 38-25-28-4 but skip the middle number. (Context hint: Based on the test cases provided for https://play.ezygamers.com/, some common issues or heuristics found during testing could include:\n\n1. **Input Validation**: The website may not be properly validat...)",
-    "steps": [
-      {
-        "action": "load",
-        "url": "https://play.ezygamers.com/"
-      },
-      {
-        "action": "fill",
-        "selector": "#input",
-        "value": "38-25-28-4"
-      },
-      {
-        "action": "click",
-        "selector": "#submit"
-      }
-    ],
-    "estimated_cost": 0.954
-  }
-]
+{
+  "generated_at": "2025-10-08T13:08:52.156534Z",
+  "target_url": "https://play.ezygamers.com/",
+  "candidates": [
+    {
+      "id": "t1",
+      "description": "Test loading the homepage.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "body"
+        },
+        {
+          "action": "fill",
+          "selector": "#input",
+          "value": "test"
+        },
+        {
+          "action": "click",
+          "selector": "#submit"
+        }
+      ],
+      "estimated_cost": 0.5
+    },
+    {
+      "id": "t2",
+      "description": "Test user login functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#login"
+        },
+        {
+          "action": "fill",
+          "selector": "#username",
+          "value": "testuser"
+        },
+        {
+          "action": "fill",
+          "selector": "#password",
+          "value": "password123"
+        },
+        {
+          "action": "click",
+          "selector": "#loginButton"
+        }
+      ],
+      "estimated_cost": 1.0
+    },
+    {
+      "id": "t3",
+      "description": "Test game start button.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#startGame"
+        },
+        {
+          "action": "click",
+          "selector": "#startGame"
+        }
+      ],
+      "estimated_cost": 0.3
+    },
+    {
+      "id": "t4",
+      "description": "Test game settings menu.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#settings"
+        },
+        {
+          "action": "click",
+          "selector": "#settings"
+        }
+      ],
+      "estimated_cost": 0.4
+    },
+    {
+      "id": "t5",
+      "description": "Test sound toggle functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#soundToggle"
+        },
+        {
+          "action": "click",
+          "selector": "#soundToggle"
+        }
+      ],
+      "estimated_cost": 0.5
+    },
+    {
+      "id": "t6",
+      "description": "Test leaderboard display.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#leaderboard"
+        },
+        {
+          "action": "click",
+          "selector": "#leaderboard"
+        }
+      ],
+      "estimated_cost": 0.6
+    },
+    {
+      "id": "t7",
+      "description": "Test in-game purchase functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#shop"
+        },
+        {
+          "action": "click",
+          "selector": "#shop"
+        },
+        {
+          "action": "click",
+          "selector": "#purchaseItem"
+        }
+      ],
+      "estimated_cost": 1.5
+    },
+    {
+      "id": "t8",
+      "description": "Test user profile update.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#profile"
+        },
+        {
+          "action": "click",
+          "selector": "#profile"
+        },
+        {
+          "action": "fill",
+          "selector": "#profileName",
+          "value": "NewName"
+        },
+        {
+          "action": "click",
+          "selector": "#saveProfile"
+        }
+      ],
+      "estimated_cost": 1.2
+    },
+    {
+      "id": "t9",
+      "description": "Test game pause functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#pauseButton"
+        },
+        {
+          "action": "click",
+          "selector": "#pauseButton"
+        }
+      ],
+      "estimated_cost": 0.4
+    },
+    {
+      "id": "t10",
+      "description": "Test game resume functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#resumeButton"
+        },
+        {
+          "action": "click",
+          "selector": "#resumeButton"
+        }
+      ],
+      "estimated_cost": 0.4
+    },
+    {
+      "id": "t11",
+      "description": "Test game exit functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#exitButton"
+        },
+        {
+          "action": "click",
+          "selector": "#exitButton"
+        }
+      ],
+      "estimated_cost": 0.5
+    },
+    {
+      "id": "t12",
+      "description": "Test chat feature in game.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#chat"
+        },
+        {
+          "action": "fill",
+          "selector": "#chatInput",
+          "value": "Hello!"
+        },
+        {
+          "action": "click",
+          "selector": "#sendChat"
+        }
+      ],
+      "estimated_cost": 0.7
+    },
+    {
+      "id": "t13",
+      "description": "Test notifications functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#notifications"
+        },
+        {
+          "action": "click",
+          "selector": "#notifications"
+        }
+      ],
+      "estimated_cost": 0.6
+    },
+    {
+      "id": "t14",
+      "description": "Test friend invite feature.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#inviteFriend"
+        },
+        {
+          "action": "click",
+          "selector": "#inviteFriend"
+        }
+      ],
+      "estimated_cost": 0.8
+    },
+    {
+      "id": "t15",
+      "description": "Test game tutorial completion.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#tutorial"
+        },
+        {
+          "action": "click",
+          "selector": "#completeTutorial"
+        }
+      ],
+      "estimated_cost": 1.0
+    },
+    {
+      "id": "t16",
+      "description": "Test daily rewards claim.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#dailyRewards"
+        },
+        {
+          "action": "click",
+          "selector": "#claimRewards"
+        }
+      ],
+      "estimated_cost": 0.9
+    },
+    {
+      "id": "t17",
+      "description": "Test game achievements display.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#achievements"
+        },
+        {
+          "action": "click",
+          "selector": "#achievements"
+        }
+      ],
+      "estimated_cost": 0.6
+    },
+    {
+      "id": "t18",
+      "description": "Test game updates notification.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#updates"
+        },
+        {
+          "action": "click",
+          "selector": "#updates"
+        }
+      ],
+      "estimated_cost": 0.5
+    },
+    {
+      "id": "t19",
+      "description": "Test logout functionality.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#logout"
+        },
+        {
+          "action": "click",
+          "selector": "#logout"
+        }
+      ],
+      "estimated_cost": 0.4
+    },
+    {
+      "id": "t20",
+      "description": "Test feedback submission.",
+      "steps": [
+        {
+          "action": "load",
+          "url": "https://play.ezygamers.com/"
+        },
+        {
+          "action": "wait",
+          "selector": "#feedback"
+        },
+        {
+          "action": "fill",
+          "selector": "#feedbackInput",
+          "value": "Great game!"
+        },
+        {
+          "action": "click",
+          "selector": "#submitFeedback"
+        }
+      ],
+      "estimated_cost": 0.7
+    }
+  ]
+}

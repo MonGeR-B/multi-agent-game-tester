@@ -25,7 +25,7 @@ class PlanRequest(BaseModel):
 @app.post("/plan")
 async def plan(req: PlanRequest):
     planner = PlannerAgent()
-    candidates = await planner.generate_tests(req.target_url, req.num_candidates, seed=req.speed)
+    candidates = planner.generate_tests(req.target_url, req.num_candidates, seed=req.speed)
     run_id = str(uuid.uuid4())
     payload = {
         "run_id": run_id,
