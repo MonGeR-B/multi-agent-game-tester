@@ -3,7 +3,6 @@
 An AI-powered automated game testing system that uses multi-agent collaboration and Retrieval-Augmented Generation (RAG) to plan, execute, and refine test cases dynamically for any web-based game.
 
 Built with LangChain, FastAPI, Playwright, Streamlit, and OpenAI’s GPT models, this project demonstrates an evolving testing agent that learns from past runs to generate more stable, targeted, and realistic tests.
-
 🚀 Key Features
 🧩 Multi-Agent Architecture
 
@@ -76,8 +75,6 @@ python generate_after.py
 
 # 5. Compare & summarize improvements
 python compare_summary.py
-
-
 Outputs:
 
 reports/initial_candidates.json
@@ -111,6 +108,7 @@ multi-agent-game-tester/
 ├── main.py                 # FastAPI entrypoint
 ├── requirements.txt
 └── README.md
+
 
 🧠 Key Learning
 
