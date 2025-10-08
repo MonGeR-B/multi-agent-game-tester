@@ -83,32 +83,6 @@ reports/after_candidates.json
 
 reports/compare_summary.txt
 
-📂 Project Structure
-multi-agent-game-tester/
-│
-├── agents/
-│   ├── planner.py          # PlannerAgent (RAG + LLM)
-│   ├── rag.py              # RAG retrieval / QA helper
-│   ├── llm_provider.py     # Model abstraction (OpenAI / Gemini / Ollama)
-│   └── ...
-│
-├── reports/
-│   ├── runs/               # Raw run outputs
-│   ├── initial_candidates.json
-│   ├── after_candidates.json
-│   ├── compare_summary.txt
-│   └── llm_raw_fail.txt
-│
-├── scripts/
-│   ├── ingest_knowledge.py # Build vector store from reports
-│
-├── ui/
-│   └── ui.py               # Streamlit frontend
-│
-├── main.py                 # FastAPI entrypoint
-├── requirements.txt
-└── README.md
-
 
 🧠 Key Learning
 
@@ -137,3 +111,4 @@ Built as part of an internship assignment — Multi-Agent Game Tester (POC + RAG
 
 ✅ Status: Complete & Submission-Ready
 Repo: https://github.com/MonGer-B/multi-agent-game-tester
+
